@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Platform Engineering TOC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0fff0;
+      margin: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #006400;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #e6ffe6;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #90ee90;
+      padding: 10px;
+      vertical-align: top;
+      text-align: left;
+      transition: background-color 0.3s ease;
+    }
+    th {
+      background-color: #98fb98;
+      color: #003300;
+    }
+    tr:nth-child(even) {
+      background-color: #f5fff5;
+    }
+    tr:hover td {
+      background-color: #ccffcc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Platform Engineering & AI Modernization</h1>
+  <h2>Total Duration: 40 Hours (5 Days × 8 Hours)</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Duration</th>
+        <th>Topics Covered</th>
+        <th>Hands-On Activities</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Day 1</strong><br>Foundations of Platform Engineering & AI</td>
+        <td>8 hrs</td>
+        <td>
+          - What is Platform Engineering?<br>
+          - Platform Engg vs DevOps/Infra/Ops<br>
+          - DevX pain points: provisioning, compliance, microservice setup<br>
+          - One-click deploys, unified portals, observability<br>
+          - AI for modernization: scaffolding, ChatOps, remediation
+        </td>
+        <td>
+          - Map current vs. target developer experience<br>
+          - Simulate agentic workflows (ChatGPT/Bedrock)<br>
+          - Brainstorm AI agents for platform phases
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Day 2</strong><br>Golden Paths & CI/CD as a Service</td>
+        <td>8 hrs</td>
+        <td>
+          - Golden Paths & developer workflows<br>
+          - Service templates: Cookiecutter, Yeoman<br>
+          - CI/CD: GitHub Actions, Jenkins, GitLab<br>
+          - Auto-tests, SBOM, SAST<br>
+          - AI template suggestions
+        </td>
+        <td>
+          - Create microservice template<br>
+          - Set up CI/CD pipeline with checks<br>
+          - Build Slack bot with OpenAI for template suggestion
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Day 3</strong><br>Infrastructure, Security & Policy Enforcement</td>
+        <td>8 hrs</td>
+        <td>
+          - Infra as Code: Terraform, Pulumi<br>
+          - Guardrails: IAM, encryption<br>
+          - Secrets management: Vault, Doppler, SSM<br>
+          - Policy engines: OPA, Gatekeeper<br>
+          - Security scans: SBOM, SAST, DAST
+        </td>
+        <td>
+          - Secure app deployment with Terraform<br>
+          - Inject secrets using Vault sidecar<br>
+          - Apply OPA policies<br>
+          - Enforce CI/CD pipeline gates
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Day 4</strong><br>Observability & Self-Service Portals</td>
+        <td>8 hrs</td>
+        <td>
+          - Observability: Prometheus, Grafana, Loki, OpenTelemetry<br>
+          - Alerting, escalation workflows<br>
+          - Self-service portals: Backstage<br>
+          - Service catalog, docs, dashboards<br>
+          - Ownership & compliance mapping
+        </td>
+        <td>
+          - Install & configure Backstage<br>
+          - Set up health indicators and mapping<br>
+          - Build dashboards<br>
+          - Enable click-to-deploy via GitHub Actions
+        </td>
+      </tr>
+      <tr>
+        <td><strong>Day 5</strong><br>Platform Deployment & Real-World Use Cases</td>
+        <td>8 hrs</td>
+        <td>
+          - Agentic AI: ChatOps, code generation, observability feedback<br>
+          - GitOps: ArgoCD, Flux, Helm, Kustomize<br>
+          - Deployment: blue/green, canary<br>
+          - Cloud: AWS, GCP, IBM Cloud
+        </td>
+        <td>
+          <strong>Capstone Project:</strong><br>
+          - Build microservice via template<br>
+          - Deploy infra/app with Terraform & Helm<br>
+          - CI/CD with policy enforcement<br>
+          - Vault-based secret injection<br>
+          - Observability integration<br>
+          - Backstage portal deployment<br>
+          - Cloud deployment (optional)
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
